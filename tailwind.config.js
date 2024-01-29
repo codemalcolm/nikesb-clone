@@ -6,6 +6,7 @@ module.exports = {
   theme: {
     extend: {
       screens: {
+        sm : "600px",
         l: "960px",
         xl: "1200px",
       },
@@ -16,7 +17,11 @@ module.exports = {
         "search-bar" : "#f5f5f5"
       },
       fontSize: {
-        "custom-large": "1.2rem"
+        "custom-large": "1.2rem",
+        "promo-size": "3rem"
+      },
+      fontFamily: {
+        "fira-sans" : ['Fira Sans', 'sans-serif'],
       }
     },
   },
