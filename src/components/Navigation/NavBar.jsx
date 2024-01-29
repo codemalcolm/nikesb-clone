@@ -1,11 +1,12 @@
 import React from 'react'
 import PreHeader from "./PreHeader"
+import Header from './Header'
 
 const NavBar = () => {
   return (
     <div className="w-full">
         <PreHeader />
-        {/* header-navbar */}
+        <Header />
         {/* info panel */}
     </div>
   )
