@@ -3,9 +3,7 @@
 @tailwind utilities;
 
 @layer components {
-    .link{
-        @apply
-    }
+
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@900&display=swap');
