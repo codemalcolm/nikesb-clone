@@ -14,7 +14,9 @@ module.exports = {
         "nav-gray":"#f5f5f5",
         "search-text": "#ccc9ca",
         "search-text-hover" : "#757575",
-        "search-bar" : "#f5f5f5"
+        "search-bar" : "#f5f5f5",
+        "footer-black" :"#111111",
+        "social-icon-gray": "#7e7e7e"
       },
       fontSize: {
         "custom-large": "1.2rem",
@@ -22,7 +24,7 @@ module.exports = {
       },
       fontFamily: {
         "fira-sans" : ['Fira Sans', 'sans-serif'],
-      }
+      },
     },
   },
   plugins: [],
