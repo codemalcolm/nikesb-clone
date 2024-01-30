@@ -16,7 +16,9 @@ module.exports = {
         "search-text-hover" : "#757575",
         "search-bar" : "#f5f5f5",
         "footer-black" :"#111111",
-        "social-icon-gray": "#7e7e7e"
+        "social-icon-gray": "#7e7e7e",
+        "hover-gray" : "#707072",
+        "hover-nav-gray" : "#e5e5e5"
       },
       fontSize: {
         "custom-large": "1.2rem",

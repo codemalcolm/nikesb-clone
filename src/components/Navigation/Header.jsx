@@ -23,10 +23,10 @@ const categories = ["New & Featured", "Men", "Women", "Kids", "Accessories", "Sa
             </div>
             {/* screen width < 960px */}
             <div className="flex items-center l:hidden ml-auto">
-              <FontAwesomeIcon icon={faMagnifyingGlass} className="rounded-3xl w- h-6 p-1 mx-1"/>
-              <FontAwesomeIcon icon={faBagShopping} className="w-6 h-6 px-1 mx-1"/>
-              <FontAwesomeIcon icon={faUser} className="w-6 h-6 px-1 mx-1"/>
-              <FontAwesomeIcon icon={faBars} className="w-6 h-6 px-1 mx-1"/>
+              <FontAwesomeIcon icon={faMagnifyingGlass} className="rounded-full w-6 h-6 p-2 mx-1 nav-icon-hover"/>
+              <FontAwesomeIcon icon={faBagShopping} className="rounded-full w-6 h-6 p-2 mx-1 nav-icon-hover"/>
+              <FontAwesomeIcon icon={faUser} className="rounded-full w-6 h-6 p-2 mx-1 nav-icon-hover"/>
+              <FontAwesomeIcon icon={faBars} className="rounded-full w-6 h-6 p-2 mx-1 nav-icon-hover"/>
             </div>
         </header>
     </>

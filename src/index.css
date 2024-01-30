@@ -4,6 +4,26 @@
 
 @layer components {
 
+    .btn-black {
+        @apply hover:bg-hover-gray hover:text-white;
+    }
+
+    .btn-about {
+        @apply hover:text-hover-gray hover:border-hover-gray;
+    }
+
+    .text-hover {
+        @apply hover:text-white
+    }
+
+    .icon-hover{
+        @apply hover:bg-white
+    }
+
+    .nav-icon-hover {
+        @apply hover:bg-hover-nav-gray
+    }
+
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@900&display=swap');
