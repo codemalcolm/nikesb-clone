@@ -5,7 +5,7 @@ import MoreSection from './About/MoreSection'
 import LogoSb from './LogoSb'
 const ShopSection = () => {
   return (
-    <div className="px-5 mt-20">
+    <div className="max-lg:px-5 mt-20">
         <Essentials />
         <FeaturedSection />
         <MoreSection />

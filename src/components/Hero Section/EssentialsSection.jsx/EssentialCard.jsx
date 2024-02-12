@@ -5,10 +5,19 @@ const EssentialCard = (props) => {
     <>
         <a href={props.linkHref}>
           <div className="flex flex-column">
-            <img src={props.imgSrc} alt="essentials-img"/>
+            <div className="">
+              <img 
+              className="object-fit bg-cover"
+              width={720}
+              height={720}
+              src={props.imgSrc} 
+              alt="essentials-img"
+              />
+            </div>
           </div>
-          <p className="text-2xl font-normal mt-2">Shoes</p>
+          <p className="text-2xl font-normal mt-4">{props.cardName}</p>
         </a>
+
     </>
   )
 }
