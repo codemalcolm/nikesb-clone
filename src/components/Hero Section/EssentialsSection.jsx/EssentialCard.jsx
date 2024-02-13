@@ -2,23 +2,19 @@ import React from 'react'
 
 const EssentialCard = (props) => {
   return (
-    <>
+    <div>
         <a href={props.linkHref}>
-          <div className="flex flex-column">
-            <div className="">
-              <img 
-              className="object-fit bg-cover"
-              width={720}
-              height={720}
-              src={props.imgSrc} 
-              alt="essentials-img"
-              />
-            </div>
-          </div>
-          <p className="text-2xl font-normal mt-4">{props.cardName}</p>
+            <img 
+            className="object-fit bg-cover"
+            width={720}
+            height={720}
+            src={props.imgSrc} 
+            alt="essentials-img"
+            />
+          <p className="text-2xl font-normal mt-1 mb-4 max-lg:text-xl">{props.cardName}</p>
         </a>
 
-    </>
+    </div>
   )
 }
 

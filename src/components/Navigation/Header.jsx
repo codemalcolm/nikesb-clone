@@ -15,7 +15,7 @@ const categories = ["New & Featured", "Men", "Women", "Kids", "Accessories", "Sa
                 {categories.map(a => <HeaderLink key={a} linkURL="#" linkTitle={a} />)}
             </ul>
             <div className="flex items-center max-l:hidden">
-              <div className="w-44 h-10 border-none bg-nav-gray flex items-center rounded-3xl max-xl:hidden text-custom-large font-semibold"><FontAwesomeIcon icon={faMagnifyingGlass} className="border-none rounded-3xl w-7 h-7 px-2"/>Search</div>
+              <div className="w-44 h-10 border-none bg-nav-gray text-gray-400 flex items-center rounded-3xl max-xl:hidden text-custom-large font-semibold"><FontAwesomeIcon icon={faMagnifyingGlass} className="border-none rounded-3xl w-6 h-6 px-3 text-black"/>Search</div>
               <FontAwesomeIcon icon={faMagnifyingGlass} className="border-none rounded-3xl w-7 h-7 px-2 xl:hidden"/>
               <FontAwesomeIcon icon={faHeart} className="w-7 h-7 px-4 max-l:hidden"/>
               <FontAwesomeIcon icon={faBagShopping} className="w-7 h-7 px-1"/>
